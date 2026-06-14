@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clemens Kastner — Bodybuilder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">Clemens<span>.</span>AESTHETICS</a>
+    <ul class="nav-links">
+      <li><a href="#about">Über mich</a></li>
+      <li><a href="#services">Coaching</a></li>
+      <li><a href="#transformations">Ergebnisse</a></li>
+      <li><a href="#process">Ablauf</a></li>
+      <li><a href="#testimonials">Klienten</a></li>
+    </ul>
+    <a href="#cta" class="nav-cta">Jetzt starten</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile fullscreen drawer -->
+  <div class="nav-drawer" id="nav-drawer">
+    <a href="#about"          class="drawer-link">Über mich</a>
+    <a href="#services"       class="drawer-link">Coaching</a>
+    <a href="#transformations" class="drawer-link">Ergebnisse</a>
+    <a href="#process"        class="drawer-link">Ablauf</a>
+    <a href="#testimonials"   class="drawer-link">Klienten</a>
+    <a href="#cta"            class="drawer-cta">Jetzt starten</a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <!-- Parallax pose layers -->
+    <div class="parallax-stage">
+      <!-- Replace these src URLs with your own PNG cutouts -->
+      <div class="pose-layer p3" data-speed="0.15">
+        <img
+          class="placeholder-pose"
+          src="Full_Body_pose.webp"
+          alt="Pose 3"
+        />
+      </div>
+      <div class="pose-layer p2" data-speed="0.25">
+        <img
+          class="placeholder-pose"
+          src="Old_Back_Pose.webp"
+          alt="Pose 2"
+        />
+      </div>
+      <div class="pose-layer p1" data-speed="0.45">
+        <img
+          class="placeholder-pose"
+          src="Front_Latspread_Full_Body.webp"
+          alt="Main pose"
+        />
+      </div>
+    </div>
+
+    <div class="hero-vignette"></div>
+
+    <div class="hero-text">
+      <p class="hero-eyebrow">FITNESS COACHING · NÖ & VIE</p>
+      <h1 class="hero-h1">DISZIPLIN<br>BESTÄNDIGKEIT<br><em>LEBEN</em><br>LEIDENSCHAFT</h1>
+      <p class="hero-sub">Zu Bodybuilding gehört Disziplin, Geduld, Struktur und vieles mehr. Doch zwischen all dem steht immernoch das Leben, welches man nicht vernachlässigen darf.</p>
+      <div class="hero-actions">
+        <a href="#cta" class="btn-primary">Coaching Anfragen</a>
+        <a href="#about" class="btn-ghost">Meine Geschichte</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── STATS BAR ── -->
+  <div class="stats-bar reveal">
+    <div class="stat-item">
+      <div class="stat-num">2+</div>
+      <div class="stat-label">Jahre Training</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">14 KG</div>
+      <div class="stat-label">AUFGEBAUT</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">78 KG</div>
+      <div class="stat-label">Bei 182 CM</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">20</div>
+      <div class="stat-label">Jahre Alt</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">NÖ & WIEN</div>
+      <div class="stat-label">Standort</div>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="about-img-wrap reveal">
+      <img
+        class="about-img"
+        src="Action_Shot_Triceps_Extensions.webp"
+        alt="Alex Voss — Bodybuilding Coach"
+      />
+      <div class="about-img-accent"></div>
+      <div class="about-badge">182 CM<br>78 KG<br>20 J.</div>
+    </div>
+    <div class="reveal">
+      <p class="section-eyebrow">Über mich</p>
+      <h2 class="section-h2">SELBST<br>GEMACHT.</h2>
+      <p class="about-body">
+        Ich bin Clemens Kastner, 20 Jahre alt, aus Zwettl in Niederösterreich und ich trainiere seit bald zweieinhalb Jahren. <strong>Durchschnittlich verbringe ich über 10h pro Woche mit Training und mich darüber weiterzubilden.</strong> Mein Wissen kommt also aus all den hunderten Stunden die ich mich mit Hypertrophie beschäftigt habe.
+      </p>
+      <p class="about-body">
+        Kurz hatte ich selbst einen Coach. Das hat mir gezeigt, wie wertvoll strukturierte Begleitung sein kann. Genau das will ich jetzt weitergeben. Ich bin kein Jahrzehnte-Veteran mit 50 Wettkampftiteln. Ich bin jemand, <strong>der deinen Ausgangspunkt kennt</strong> weil ich selbst noch nicht weit davon entfernt bin. Ab Herbst studiere ich in Wien und bin dann auch persönlich dort erreichbar.
+      </p>
+      <ul class="credential-list">
+        <li>2,5 Jahre intensives Kraft- & Hypertrophietraining</li>
+        <li>Wissen aus Wissenschaft & Praxis</li>
+        <li>Eigene Coaching-Erfahrung als Betreuer und Klient</li>
+        <li>Bald als Student in Wien — persönliche Sessions möglich</li>
+        <li>Erreichbar in Zwettl (NÖ) & Wien</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="services-intro">
+      <div class="reveal">
+        <p class="section-eyebrow">Angebote</p>
+        <h2 class="section-h2">WAS<br>ICH<br>BIETE.</h2>
+      </div>
+      <div class="reveal">
+        <p class="services-desc">
+          Ob du gerade erst anfängst oder schon trainierst und nicht mehr weiterkommst, ich habe das passende Angebot, das dich deinen Zielen näher bringt und zu deinem Leben passt. Alles individuell auf dich zugeschnitten.
+        </p>
+      </div>
+    </div>
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-name">Bodybuilding Coaching</div>
+        <p class="service-desc">Individuelle Betreuung für Muskelaufbau, Fettverlust und langfristigen Fortschritt. Du erhältst einen auf dich abgestimmten Trainingsplan, regelmäßige Anpassungen, Formanalysen und direkten Support, damit du konstant Fortschritte machst und typische Fehler vermeidest.</p>
+        <div class="service-price">€129 / Monat - Limitierte Plätze</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <div class="service-name">Individueller Trainingsplan</div>
+        <p class="service-desc">Ein auf dein Ziel, deine Erfahrung und dein Equipment abgestimmter Trainingsplan. Egal ob Muskelaufbau, Kraftsteigerung oder Diät. Du erhältst einen klaren Plan, mit dem du strukturiert trainieren und messbare Fortschritte erzielen kannst.</p>
+        <div class="service-price">€79</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <div class="service-name">Beratungsgespräch</div>
+        <p class="service-desc">In einem persönlichen Gespräch analysieren wir deine aktuelle Situation und beantworten alle Fragen rund um Training, Muskelaufbau, Diät oder deine weitere Strategie. Perfekt, wenn du klare Antworten und eine konkrete Richtung für die nächsten Schritte suchst.</p>
+        <div class="service-price">€69</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <div class="service-name">1:1 Personal Training</div>
+        <p class="service-desc">In einem persönlichen Gespräch analysieren wir deine aktuelle Situation und beantworten alle Fragen rund um Training, Muskelaufbau, Diät oder deine weitere Strategie. Perfekt, wenn du klare Antworten und eine konkrete Richtung für die nächsten Schritte suchst.</p>
+        <div class="service-price">€59</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <div class="service-name">Posing Session</div>
+        <p class="service-desc">Lerne, deinen Körper optimal zu präsentieren. Gemeinsam arbeiten wir an Posen, Übergängen und deiner Ausstrahlung, damit du auf Bildern, Videos oder auf der Bühne dein volles Potenzial zeigen kannst.</p>
+        <div class="service-price">€39</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <div class="service-name">Form Check</div>
+        <p class="service-desc">Erhalte eine ehrliche Einschätzung deiner aktuellen Form inklusive Analyse deiner Stärken, Schwachstellen und Verbesserungspotenziale. Ideal, wenn du wissen möchtest, worauf du dich im Training als Nächstes konzentrieren solltest.</p>
+        <div class="service-price">€29</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TRANSFORMATIONS ── -->
+  <section id="transformations">
+    <div class="transform-header reveal">
+      <div>
+        <p class="section-eyebrow">Ergebnisse</p>
+        <h2 class="section-h2">ECHTE<br>ARBEIT.</h2>
+      </div>
+      <a href="#cta" class="btn-ghost">DAS WILL ICH AUCH →</a>
+    </div>
+    <div class="transforms-grid">
+      <div class="transform-card reveal">
+        <div class="transform-imgs">
+          <div>
+            <p class="label-before">Vorher</p>
+            <img class="transform-img" src="Tennis_Before.webp" alt="Before" />
+          </div>
+          <div>
+            <p class="label-after">Nachher</p>
+            <img class="transform-img after" src="Front_Lat_Spread_Full_lowres.webp" alt="After" />
+          </div>
+        </div>
+        <div class="transform-name">Meine eigene Transformation</div>
+        <div class="transform-detail">2 Jahre · Von null auf strukturiertes Training · Seit Beginn 14kg+ aufgebaut</div>
+      </div>
+      <div class="transform-card reveal">
+        <div class="transform-imgs">
+          <div>
+            <p class="label-before">Vorher</p>
+            <img class="transform-img" src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=400&q=80&fit=crop" alt="Before" />
+          </div>
+          <div>
+            <p class="label-after">Nachher</p>
+            <img class="transform-img after" src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400&q=80&fit=crop" alt="After" />
+          </div>
+        </div>
+        <div class="transform-name">Sophie R. — Wellness Division</div>
+        <div class="transform-detail">20 weeks · +8 kg lean mass · 2nd place nationals</div>
+      </div>
+      
+      <div class="transform-card reveal">
+        <div class="transform-imgs">
+          <div>
+            <p class="label-before">Vorher</p>
+            <img class="transform-img" src="Before_Platzhalter.webp" alt="Before" />
+          </div>
+          <div>
+            <p class="label-after">Nachher</p>
+            <img class="transform-img after" src="After_Platzhalter.webp" alt="After" />
+          </div>
+        </div>
+        <div class="transform-name">Dein Name</div>
+        <div class="transform-detail">Hier könntest du als Nächstes stehen</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROCESS ── -->
+  <section id="process">
+    <div class="reveal">
+      <p class="section-eyebrow">SO LÄUFT'S AB</p>
+      <h2 class="section-h2">DER<br>ABLAUF.</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="step-index">01</div>
+        <div class="step-title">Nachricht schicken</div>
+        <p class="step-body">Schreib mir kurz wer du bist, was dein Ziel ist und wo du gerade stehst. Keine langen Formulare, sondern gleich drauf los. Ich antworte persönlich.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-index">02</div>
+        <div class="step-title">Kennenlernen</div>
+        <p class="step-body">Wir reden kurz per Chat, Call oder bei einem Treffen. Ich will verstehen was du brauchst, welchen Alltag du hast und was bisher nicht funktioniert hat. Kein Verkaufsgespräch.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-index">03</div>
+        <div class="step-title">Unterstützung erhalten</div>
+        <p class="step-body">Du bekommst deine individuelle Unterstützung. Alles auf dich zugeschnitten und in Wissen, Wissenschaft und Trainingserfahrung fundiert.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-index">04</div>
+        <div class="step-title">Loslegen & wachsen</div>
+        <p class="step-body">Du trainierst, ich begleite. Beim monatlichen Coaching gibt's wöchentliche Check-ins und Anpassungen. Bei Einmalplänen bleibe ich trotzdem ansprechbar bei Fragen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section id="testimonials">
+    <div class="reveal">
+      <p class="section-eyebrow">Was andere sagen
+
+</p>
+      <h2 class="section-h2">ECHTE<br>STIMMEN.</h2>
+    </div>
+    <div class="testi-grid reveal">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">Alex doesn't just give you a plan — he gives you a framework for thinking about your body. I walked away from prep not just leaner, but smarter. Placed 2nd at nationals after 6 months of working together.</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&fit=crop&crop=face" alt="Marco" />
+          <div>
+            <div class="testi-name">Marco D.</div>
+            <div class="testi-info">Open Bodybuilding · Vienna, AT</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">I'd tried three other coaches before Alex. The difference is communication and accountability. He answers every message, explains every decision, and genuinely cares whether you improve.</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&fit=crop&crop=face" alt="Sophie" />
+          <div>
+            <div class="testi-name">Sophie R.</div>
+            <div class="testi-info">Wellness Division · Munich, DE</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">Competition prep was everything I feared — brutal but so worth it. Alex kept my head straight through the hard weeks and made sure I was healthy coming out the other side. Can't recommend him enough.</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80&fit=crop&crop=face" alt="Lukas" />
+          <div>
+            <div class="testi-name">Lukas T.</div>
+            <div class="testi-info">Classic Physique · Graz, AT</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">As a busy professional, I needed a coach who respected my time constraints. Alex built a program around my life, not the other way around. Down 18 kg, back to competing for the first time in 5 years.</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80&fit=crop&crop=face" alt="Tom" />
+          <div>
+            <div class="testi-name">Tom W.</div>
+            <div class="testi-info">Masters Division · Zurich, CH</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <h2 class="cta-h2 reveal">BEREIT<br>ANZUFANGEN?</h2>
+    <p class="cta-sub reveal">Schreib mir einfach. Kein Formular, kein Stress. Wir reden kurz darüber was du brauchst und schauen ob ich der Richtige dafür bin.</p>
+    <a href="mailto:coaching@clemenskastner.com" class="btn-dark reveal">Jetzt Kontakt aufnehmen</a>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-logo">Clemens<span>.</span>AESTHETICS</div>
+    <div class="footer-links">
+      <a href="#about">Über mich</a>
+      <a href="#services">Angebote</a>
+      <a href="#transformations">Ergebnisse</a>
+      <a href="mailto:coaching@clemenskastner.com">Kontakt</a>
+    </div>
+    <p class="footer-copy">© 2026 Clemens Kastner · Alle Rechte vorbehalten</p>
+  </footer>
+
+  <script>
+    /* ── Hamburger / drawer ── */
+    const hamburger = document.getElementById('hamburger');
+    const drawer    = document.getElementById('nav-drawer');
+    const drawerLinks = drawer.querySelectorAll('a');
+
+    function openDrawer() {
+      hamburger.classList.add('open');
+      drawer.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeDrawer() {
+      hamburger.classList.remove('open');
+      drawer.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    hamburger.addEventListener('click', () => {
+      drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+    });
+    drawerLinks.forEach(a => a.addEventListener('click', closeDrawer));
+
+    /* ── Parallax ── */
+    const layers   = document.querySelectorAll('.pose-layer');
+    let ticking    = false;
+    const isMobile = () => window.innerWidth <= 900;
+
+    function updateParallax() {
+      const scrollY = window.scrollY;
+      layers.forEach(layer => {
+        const speed = parseFloat(layer.dataset.speed) || 0.3;
+        const offset = scrollY * speed;
+        if (isMobile()) {
+          // On mobile p1 is centred via CSS transform; we only add vertical offset
+          if (layer.classList.contains('p1')) {
+            layer.style.transform = `translateX(50%) translateY(${offset}px)`;
+          }
+        } else {
+          layer.style.transform = `translateY(${offset}px)`;
+        }
+      });
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) { requestAnimationFrame(updateParallax); ticking = true; }
+    }, { passive: true });
+
+    // Recalculate on resize (mobile/desktop switch)
+    window.addEventListener('resize', updateParallax, { passive: true });
+
+    /* ── Nav scroll class ── */
+    const navEl = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      navEl.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ── Scroll reveal ── */
+    const reveals  = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+
+    /* ── Hero entrance ── */
+    document.addEventListener('DOMContentLoaded', () => {
+      const heroText = document.querySelector('.hero-text');
+      heroText.style.cssText += 'opacity:0;transform:translateY(20px);transition:opacity 0.9s ease 0.3s,transform 0.9s ease 0.3s;';
+      setTimeout(() => { heroText.style.opacity = '1'; heroText.style.transform = 'translateY(0)'; }, 100);
+
+      layers.forEach((layer, i) => {
+        layer.style.opacity = '0';
+        const targetOpacity = layer.classList.contains('p1') ? '1'
+          : layer.classList.contains('p2') ? '0.55' : '0.25';
+        layer.style.transition = `opacity 1.2s ease ${0.2 + i * 0.2}s`;
+        setTimeout(() => { layer.style.opacity = targetOpacity; }, 100);
+      });
+    });
+  </script>
+</body>
+</html>
