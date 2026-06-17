@@ -194,9 +194,9 @@
     }
 
     /* Pose positions */
-    .pose-layer.p1 { right: -10%;  bottom: 0; z-index: 3; }
-    .pose-layer.p2 { right: 15%; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
-    .pose-layer.p3 { right: 40%; bottom: 0; z-index: 1; opacity: 0.25; filter: blur(1px); }
+    .pose-layer.p1 { right: -10vw;  bottom: 0; z-index: 3; }
+    .pose-layer.p2 { right: 10vw; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
+    .pose-layer.p3 { right: 35vw; bottom: 0; z-index: 1; opacity: 0.25; filter: blur(1px); }
 
     /* Vignette overlay */
     .hero-vignette {
@@ -726,21 +726,21 @@
     }
     @media (max-width: 1500px){
       /* Pose positions */
-    .pose-layer.p1 { right: -30%;  bottom: 0; z-index: 3; }
-    .pose-layer.p2 { right: -10%; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
-    .pose-layer.p3 { right: 30%; bottom: 0; z-index: 1; opacity: 0.25; filter: blur(1px); }
+    .pose-layer.p1 { right: -10vw;  bottom: 0; z-index: 3; }
+    .pose-layer.p2 { right: 10vw; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
+    .pose-layer.p3 { right: 35vw; bottom: 0; z-index: 1; opacity: 0.25; filter: blur(1px); }
     }
     @media (max-width: 1200px){
       /* Pose positions */
-    .pose-layer.p1 { right: -40%;  bottom: 0; z-index: 3; }
-    .pose-layer.p2 { right: -10%; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
-    .pose-layer.p3 { right: 500%; bottom: 0; z-index: 1; opacity: 0.0; filter: blur(1px); }
+    .pose-layer.p1 { right: -10vw;  bottom: 0; z-index: 3; }
+    .pose-layer.p2 { right: 10vw; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
+    .pose-layer.p3 { right: 35vw; bottom: 0; z-index: 1; opacity: 0.0; filter: blur(1px); }
     }
     @media (max-width: 1000px){
       /* Pose positions */
-    .pose-layer.p1 { right: -50%;  bottom: 0; z-index: 3; }
-    .pose-layer.p2 { right: -20%; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
-    .pose-layer.p3 { right: 500%; bottom: 0; z-index: 1; opacity: 0.0; filter: blur(1px); }
+    .pose-layer.p1 { right: -10vw;  bottom: 0; z-index: 3; }
+    .pose-layer.p2 { right: 10vw; bottom: 0; z-index: 2; opacity: 0.55; filter: blur(0.5px); }
+    .pose-layer.p3 { right: 35vw; bottom: 0; z-index: 1; opacity: 0.0; filter: blur(1px); }
     }
 
     /* ── RESPONSIVE ── */
