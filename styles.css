@@ -686,7 +686,10 @@
       color: var(--white);
     }
     .footer-logo span { color: var(--acid); }
-    .footer-links { display: flex; gap: 2rem; }
+    .footer-links { 
+      display: flex;
+      gap: 2rem; 
+    }
     .footer-links a {
       color: var(--muted);
       text-decoration: none;
@@ -755,7 +758,27 @@
       .nav-hamburger { display: flex; }
 
       section { padding: 5rem 1.5rem; }
-      .hero-text { padding: 5rem 1.5rem 3rem; max-width: 100%; }
+      .hero-text { 
+        padding: 5rem 1.5rem 3rem; 
+        max-width: 100%;
+      }
+      .hero-text > h1{
+        font-size: 14vw;
+      }
+      .scroll-hint{
+        display: none;
+      }
+      .nav-drawer{
+        gap: 0rem;
+      }
+      .footer-links {
+        width: 100%;
+      flex-wrap: wrap;
+      }
+      .footer-links a {
+      
+      flex: 1 0 33.33%;
+      }
 
       /* Mobile parallax: single centered pose, taller to fill */
       .pose-layer.p2, .pose-layer.p3 { display: none; }
