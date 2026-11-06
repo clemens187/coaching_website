@@ -13,7 +13,7 @@
       --muted:   #666666;
       --bone:    #F0EDE6;
       --white:   #FFFFFF;
-      --acid:    #C8F000;
+      --acid:    #f00000;
     }
 
     html { scroll-behavior: smooth; }
